@@ -18,7 +18,8 @@ namespace Resto.Front.Api.IRestoDeliveryScreen
         public IRestoDeliveryScreen()
         {
             PluginContext.Log.Info("IRestoDeliveryScreen launched");
-            subscriptions.Push(new Window1());
+            subscriptions.Push(new MainClass());
+
         }
 
         public void Dispose()
